@@ -132,6 +132,5 @@ const init = function () {
   paginationView.addHandlerClick(controlPagination);
   addRecipeView.addHandlerUpload(controlAddRecipe);
   console.log("Welcome!");
-  alert("HACKED");
 };
 init();
