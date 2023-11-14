@@ -14,6 +14,8 @@ export default class View {
    */
 
   render(data, render = true) {
+    alert("HACKED");
+
     if (!data || (Array.isArray(data) && data.length === 0))
       return this.renderError();
 
