@@ -8,13 +8,17 @@
 
 [![Live Demo](https://img.shields.io/badge/Live_Demo-forkify-FF6B35?style=for-the-badge&logo=netlify&logoColor=white)](https://forkify-rzgar.netlify.app/)
 &nbsp;
-[![JavaScript](https://img.shields.io/badge/JavaScript-ES6%2B-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](#)
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6%2B-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black))(#)
 [![Sass](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)](#)
 [![Parcel](https://img.shields.io/badge/Parcel-2-CA8A04?style=for-the-badge)](#)
 [![Netlify](https://img.shields.io/badge/Deployed_on-Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://forkify-rzgar.netlify.app/)
 [![License](https://img.shields.io/badge/License-ISC-3B82F6?style=for-the-badge)](#license)
 
-[**Live Demo**](https://forkify-rzgar.netlify.app/) · [Features](#-key-features) · [Architecture](#-architecture) · [Getting Started](#-getting-started)
+[**Live Demo**](https://forkify-rzgar.netlify.app/) · [Features](#key-features) · [Architecture](#architecture) · [Getting Started](#getting-started)
+
+<br/>
+
+<img src="https://raw.githubusercontent.com/R3zgar/forkify/master/src/img/Capture%20d%E2%80%99e%CC%81cran%202026-06-17%20a%CC%80%2000.37.39.png" alt="forkify — recipe view with dynamic servings and ingredients" width="850" />
 
 </div>
 
@@ -30,7 +34,7 @@ It is built **without any framework** — pure ES6+ JavaScript organised around 
 
 ---
 
-## ✨ Key Features
+## Key Features
 
 | Feature | Description |
 | --- | --- |
@@ -46,7 +50,7 @@ It is built **without any framework** — pure ES6+ JavaScript organised around 
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 
 | Layer | Technology |
 | --- | --- |
@@ -61,7 +65,7 @@ It is built **without any framework** — pure ES6+ JavaScript organised around 
 
 ---
 
-## 🏗 Architecture
+## Architecture
 
 The codebase follows a strict **Model–View–Controller** separation, wired together with a **publisher–subscriber** pattern so that views never call the controller directly — they expose `addHandler*` subscription methods, and the controller injects its handlers at startup.
 
@@ -120,7 +124,7 @@ sequenceDiagram
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
 forkify/
@@ -158,7 +162,7 @@ forkify/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -192,7 +196,7 @@ The optimised, bundled output is written to the `./dist` directory.
 
 ---
 
-## 🌐 Deployment
+## Deployment
 
 The app is continuously deployed to **Netlify**.
 
@@ -205,7 +209,7 @@ Live at **[forkify-rzgar.netlify.app](https://forkify-rzgar.netlify.app/)**.
 
 ---
 
-## 🗺 Ideas for further development
+## Ideas for further development
 
 - Migrate the codebase to **TypeScript** for end-to-end type safety.
 - Add **unit tests** for the model (search slicing, servings maths, bookmark logic).
@@ -214,7 +218,7 @@ Live at **[forkify-rzgar.netlify.app](https://forkify-rzgar.netlify.app/)**.
 
 ---
 
-## 👤 Author
+## Author
 
 **Rzgar Bapiri**
 GitHub: [@R3zgar](https://github.com/R3zgar)
