@@ -8,9 +8,10 @@
 
 [![Live Demo](https://img.shields.io/badge/Live_Demo-forkify-FF6B35?style=for-the-badge&logo=netlify&logoColor=white)](https://forkify-rzgar.netlify.app/)
 &nbsp;
-[![JavaScript](https://img.shields.io/badge/JavaScript-ES6%2B-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black))(#)
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6%2B-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](#)
 [![Sass](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)](#)
 [![Parcel](https://img.shields.io/badge/Parcel-2-CA8A04?style=for-the-badge)](#)
+[![Node.js](https://img.shields.io/badge/Node.js-LTS-339933?style=for-the-badge&logo=node.js&logoColor=white)](#)
 [![Netlify](https://img.shields.io/badge/Deployed_on-Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://forkify-rzgar.netlify.app/)
 [![License](https://img.shields.io/badge/License-ISC-3B82F6?style=for-the-badge)](#license)
 
@@ -57,6 +58,7 @@ It is built **without any framework** — pure ES6+ JavaScript organised around 
 | **Language** | JavaScript (ES6+ modules) |
 | **Styling** | Sass (modular `7-1`-style partials) |
 | **Bundler** | Parcel 2 (`@parcel/transformer-sass`) |
+| **Tooling** | Node.js & npm (Parcel dev server and production build) |
 | **Polyfills** | `core-js` · `regenerator-runtime` (targeted via `browserslist`) |
 | **Fractions** | `fracty` |
 | **Data source** | forkify API v2 (REST) |
