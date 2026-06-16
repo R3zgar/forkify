@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/R3zgar/forkify/main/src/img/logo.png" alt="forkify logo" width="90" />
+<img src="https://raw.githubusercontent.com/R3zgar/forkify/master/src/img/logo.png" alt="forkify logo" width="90" />
 
 # forkify
 
